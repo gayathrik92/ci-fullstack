@@ -38,8 +38,7 @@ jobs:
       # Run the linter.
       - run: cd backend && npm run lint
 
-      # Send a console message at completion.
-	  
+      # Send a console message at completion.	  
       - run: |
           "Hello [username of the user who initiated the run]. You pushed to [repository_name] at $(date)."."
 
