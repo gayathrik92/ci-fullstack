@@ -29,8 +29,7 @@ jobs:
 
       # Install the dependencies.
       - name: Install dependencies for custom action
-        run: |
-          cd backend && npm ci
+        run: cd backend && npm ci
 
       # Run the tests.
       - name: Run tests
